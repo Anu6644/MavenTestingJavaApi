@@ -11,7 +11,8 @@
       <artifactId>testng</artifactId>
       <version>6.8.5</version>
       <scope>test</scope>
-    </dependency></dependencies>
+    </dependency>
+    </dependencies>
 	<build>
 		<sourceDirectory>src</sourceDirectory>
 		<resources>
@@ -39,7 +40,7 @@
 				<configuration>
 					<suiteXmlFiles>
 						<!-- Suite file injection parameter from command line -->
-						<suiteXmlFile>${testng}</suiteXmlFile>
+						<suiteXmlFile>testng.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
