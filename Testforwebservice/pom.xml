@@ -39,7 +39,7 @@
 				<configuration>
 					<suiteXmlFiles>
 						<!-- Suite file injection parameter from command line -->
-						<suiteXmlFile>${testng}</suiteXmlFile>
+						<suiteXmlFile>testng.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
