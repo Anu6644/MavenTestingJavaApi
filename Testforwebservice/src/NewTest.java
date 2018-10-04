@@ -1,4 +1,3 @@
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -32,7 +31,7 @@ public class NewTest {
 
 		//print result
 		System.out.println(response.toString());
-	    Assert.assertEquals(response.toString(), "Hello");
+	    Assert.assertEquals(response.toString(), "Hello, This is for testing pipeline_demoo");
   }
  
 
